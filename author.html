@@ -1,36 +1,87 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="utf-8" />
-    <title>Rain World Store</title>
-    <link rel="shortcut icon" type="image/ico" href="icon (1).ico">
-    <meta name="description" content="Official Rain World merchandise store."/>
-    <meta name="keywords" content="shop, game, rain world, indie, indie game, merch, merchandise, store, catalogue, non-profit">
-    <link rel="stylesheet" type="text/css" href="css/style1.css"/>
-    <script src="https://kit.fontawesome.com/8c4c0c57f9.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <div id="logo">
-            <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
-        </div>
-        <div id="nav">
-            <ul>
-                <li><a href="index.html">Explore</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </div>
-        <div id="searchcartwrapper">
-            <form id="search" action="" method="get">
-                <input type="search" id="searchbar" placeholder="Search"/>
-                <button id="searchbutton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                <button id="cartbutton"><i class="fa-solid fa-cart-shopping"></i></button>
-            </form>
-        </div>
-    </header>
-<main>
-
-</main>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <title>Rain World Store</title>
+        <link rel="shortcut icon" type="image/ico" href="icon (1).ico">
+        <meta name="description" content="Official Rain World merchandise store."/>
+        <meta name="keywords" content="shop, game, rain world, indie, indie game, merch, merchandise, store, catalogue, non-profit">
+        <link rel="stylesheet" type="text/css" href="css/style1.css"/>
+        <script src="https://kit.fontawesome.com/8c4c0c57f9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">Explore</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="author.html">About</a></li>
+                </ul>
+            </div>
+            <div id="searchcartwrapper">
+                <form id="search" action="" method="get">
+                    <input type="search" id="searchbar" placeholder="Search"/>
+                    <button id="searchbutton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button id="cartbutton"><i class="fa-solid fa-cart-shopping"></i></button>
+                </form>
+            </div>
+        </header>
+        <main id="aboutpage">
+            <div class="profilepic">
+                <img src="img/profile.jpg" alt="Profile pic">
+            </div>
+            <div class="aboutinfo">
+                <h1>About me</h1>
+                <p>My name is Matej Zakrovski. I'm studying Internet Technologies at ICT College in Belgrade, Serbia. As a teen I always had a fascination with how programs and web sites were made which led me down the path of enrolling in this college. In my free time I like to ride the bike, play games of all kinds and do all sorts of projects.</p>
+                <h2><i class="fas fa-envelope mail-icon"></i> Gmail: <a class="aboutInfo" href="mailto:matej.zarkovski.116.24@ict.edu.rs">matej.zarkovski.116.24@ict.edu.rs</a></h2>
+                <h2><i class="fab fa-github github-icon"></i> Github: <a class="aboutInfo" href="https://github.com/MatthewTheThonker" target="_blank">github.com/MatthewTheThonker</a></h2>
+                <h2><i class="fab fa-facebook-square facebook-icon"></i> Facebook: <a class="aboutInfo" href="https://www.facebook.com" target="_blank">Matej Zarkovski</a></h2>
+                <h2><i class="fab fa-youtube youtube-icon"></i> YouTube: <a class="aboutInfo" href="https://www.youtube.com" target="_blank">Matej</a></h2>
+                <h2><i class="fab fa-twitter twitter-icon"></i> X.com: <a class="aboutInfo" href="https://www.x.com" target="_blank">MatthewTheThonker</a></h2>
+            </div>
+        </main>
+        <footer>
+            <div id="footercontent">
+                <div class="footersection" id="info">
+                    <h3>Info</h3>
+                    <ul>
+                        <li><a href="index.html">Explore</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="author.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footersection" id="social">
+                    <h3>Socials</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://www.x.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footersection" id="newsletter">
+                    <h3>Newsletter</h3>
+                    <div id="newslettercontainer">
+                        <p>Stay up to date with new merch!</p>
+                        <form action="">
+                                <input type="email" id="newslettermail" placeholder="Your email">
+                                <button id="newsletterbutton" type="submit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"></path></svg>
+                                </button>
+                        </form>
+                        <div id="footerlogo">
+                            <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Copyright &copy; Rain World Store</p>
+        </footer>
+    </body>
+</html>

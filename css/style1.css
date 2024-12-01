@@ -52,7 +52,6 @@ header{
     margin: auto 20px;
 }
 #search{
-    /* background-color: #59BAA3; */
     padding: 20px;
 }
 #searchbar{
@@ -68,7 +67,7 @@ header{
     right: 50px;
     height: 30px;
     width: 30px;
-
+    background-color: transparent;
 }
 #cartbutton, #searchbutton{
     position: relative;
@@ -162,9 +161,6 @@ header{
     color: rgba(0, 0, 0, 0.5);
     margin-top: 8px;
 }
-#pagescroll{
-
-}
 main hr{
     border: 2px solid rgb(155, 155, 155);
 }
@@ -189,6 +185,7 @@ footer{
 }
 #info{
     border-right: 6px solid #569385;
+    text-align: center;
 }
 #info li{
     background-color: #448d7d;
@@ -212,8 +209,23 @@ footer{
 #social ul{
     display: flex;
 }
-#social i{
-    width: ;
+#social ul li {
+    margin: 0px 10px;
+}
+#social ul li i{
+    font-size: 36px;
+}
+#social ul li i.fa-facebook {
+    color: #205bd5;
+}
+#social ul li i.fa-instagram {
+    color: #C13584;
+}
+#social ul li i.fa-youtube {
+    color: #d90000;
+}
+#social ul li i.fa-twitter {
+    color: #1DA1F2;
 }
 #newsletter{
     border-left: 6px solid #569385;
@@ -223,4 +235,124 @@ footer p{
     text-align: center;
     color: rgb(240, 240, 240);
     padding: 15px;
+}
+#newslettercontainer form{
+    display: flex;
+    margin-top: 10px;
+}
+#newslettercontainer p{
+    padding: 0px;
+}
+#newslettermail {
+    padding: 5px;
+    flex-grow: 1;
+}
+#footerlogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#footerlogo img {
+    width: 140px;
+    height: 80px;
+}
+
+#gallerypage {
+    padding-top: 170px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#gallerypage h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+    font-family: 'Dancing Script';
+    font-size: 34px;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#gallery img {
+    width: 30%;
+    margin-bottom: 30px;
+    transition: transform 100ms;
+}
+#gallery img:hover {
+    transform: scale(1.1);
+}
+
+#contactpage {
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+#shoplocation {
+    margin-right: 100px;
+}
+.contactform form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactform h1 {
+    text-align: justify;
+    font-size: 22px;
+    width: 400px;
+    margin-bottom: 15px;
+}
+.contactinput {
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.contactform input[type="submit"] {
+    padding: 5px;
+    background-color: #59baa3ec;
+}
+.contactform textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#aboutpage {
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    min-height: 500px;
+}
+.profilepic {
+    margin-right: 100px;
+}
+.profilepic img {
+    width: 320px;
+    box-shadow: rgba(99, 99, 99, 0.589) 4px 4px;
+}
+.aboutinfo h1 {
+    margin-bottom: 15px;
+}
+.aboutinfo p {
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+.aboutinfo h2 {
+    margin-bottom: 10px;
+}
+.aboutinfo .mail-icon {
+    color: #e52929;
+}
+.aboutinfo .facebook-icon {
+    color: #3b5998;
+}
+.aboutinfo .youtube-icon {
+    color: #d90000;
+}
+.aboutinfo .twitter-icon {
+    color: #1DA1F2;
 }

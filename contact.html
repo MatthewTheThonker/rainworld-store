@@ -1,36 +1,88 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="utf-8" />
-    <title>Rain World Store</title>
-    <link rel="shortcut icon" type="image/ico" href="icon (1).ico">
-    <meta name="description" content="Official Rain World merchandise store."/>
-    <meta name="keywords" content="shop, game, rain world, indie, indie game, merch, merchandise, store, catalogue, non-profit">
-    <link rel="stylesheet" type="text/css" href="css/style1.css"/>
-    <script src="https://kit.fontawesome.com/8c4c0c57f9.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <div id="logo">
-            <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+    <head>
+        <meta charset="utf-8" />
+        <title>Rain World Store</title>
+        <link rel="shortcut icon" type="image/ico" href="icon (1).ico">
+        <meta name="description" content="Official Rain World merchandise store."/>
+        <meta name="keywords" content="shop, game, rain world, indie, indie game, merch, merchandise, store, catalogue, non-profit">
+        <link rel="stylesheet" type="text/css" href="css/style1.css"/>
+        <script src="https://kit.fontawesome.com/8c4c0c57f9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">Explore</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="author.html">About</a></li>
+                </ul>
+            </div>
+            <div id="searchcartwrapper">
+                <form id="search" action="" method="get">
+                    <input type="search" id="searchbar" placeholder="Search"/>
+                    <button id="searchbutton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button id="cartbutton"><i class="fa-solid fa-cart-shopping"></i></button>
+                </form>
+            </div>
+        </header>
+    <main id="contactpage">
+        <div id="shoplocation">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.335402277898!2d20.47980635123193!3d44.81473129670681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a95dfdba1fb%3A0x7dd3ed9b437a11d6!2z0JfQtNGA0LDQstC60LAg0KfQtdC70LDRgNCwIDE2LCDQkdC10L7Qs9GA0LDQtCAxMTAwMA!5e0!3m2!1ssr!2srs!4v1732834770990!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div id="nav">
-            <ul>
-                <li><a href="index.html">Explore</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </div>
-        <div id="searchcartwrapper">
-            <form id="search" action="" method="get">
-                <input type="search" id="searchbar" placeholder="Search"/>
-                <button id="searchbutton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                <button id="cartbutton"><i class="fa-solid fa-cart-shopping"></i></button>
+        <div class="contactform">
+            <h1>Interested about upcoming merch? Need help with something? Send us a question!</h1>
+            <form action="#" method="POST">
+                <input type="text" name="fullname" class="contactinput" placeholder="Your name" required="">
+                <input type="email" name="email" class="contactinput" placeholder="Email" required="">
+                <input type="text" name="subject" class="contactinput" placeholder="Subject" required="">
+                <textarea name="body" class="contactinput" placeholder="Message..." required=""></textarea>
+                <input type="submit" value="Send"/>
             </form>
         </div>
-    </header>
-<main>
-
-</main>
-</body>
+    </main>
+    <footer>
+        <div id="footercontent">
+            <div class="footersection" id="info">
+                <h3>Info</h3>
+                <ul>
+                    <li><a href="index.html">Explore</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="author.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footersection" id="social">
+                <h3>Socials</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.x.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="footersection" id="newsletter">
+                <h3>Newsletter</h3>
+                <div id="newslettercontainer">
+                    <p>Stay up to date with new merch!</p>
+                    <form action="">
+                            <input type="email" id="newslettermail" placeholder="Your email">
+                            <button id="newsletterbutton" type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"></path></svg>
+                            </button>
+                    </form>
+                    <div id="footerlogo">
+                        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Copyright &copy; Rain World Store</p>
+    </footer>
+    </body>
+</html>
