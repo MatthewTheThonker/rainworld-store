@@ -1,0 +1,226 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+    list-style-type: none;
+}
+header{
+    background-color: #59baa3ec;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.5);
+    position: fixed;
+    z-index: 2;
+}
+#logo{
+    width: 140px;
+    height: 80px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#logo a img{
+    width: 100%;
+    height: 100%;
+}
+#logo a{
+}
+#nav{
+    display: flex;
+    align-items: center;
+}
+#nav ul li{
+    float: left;
+    padding: 20px;
+}
+#nav ul a{
+    text-decoration: none;
+    font-size:x-large;
+    font-weight: 700;
+    color: white;
+    transition: ease-out 0.2s;
+}
+#nav ul a:hover{
+    color: black;
+    transition: ease-out 0.5s;
+}
+#searchcartwrapper{
+    margin: auto 20px;
+}
+#search{
+    /* background-color: #59BAA3; */
+    padding: 20px;
+}
+#searchbar{
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: large;
+    border: 0px;
+    border-radius: 20px;
+}
+#searchbutton{
+    right: 50px;
+    height: 30px;
+    width: 30px;
+
+}
+#cartbutton, #searchbutton{
+    position: relative;
+    border: 1px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#cartbutton{
+    right: 25px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+#searchbutton i:hover, #cartbutton i:hover{
+    transform: scale(1.20);
+    transition: 0.2s;
+}
+#mainbanner{
+    height: 950px;
+    background-image: url(../img/mainbanner.jpg);
+    border-bottom: 10px solid #5a4d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainbanner p{
+    display: inline-block;
+    font-family: "Dancing Script";
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    background: none;
+}
+#shop{
+    margin: 0px auto;
+    width: 1400px;
+    padding: 20px;
+}
+#shop h1{
+    width: 200px;
+    margin: 40px auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#shop hr{
+    width: 150px;
+    margin: 0px auto;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#shop h2{
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+.shopwrapper{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.article{
+    width: 256px;
+    height: 350px;
+}
+.articleimg{
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 20px;
+    transition: ease-in-out 0.2s;
+}
+.articleimg:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.4s;
+}
+.articletext{
+    padding: 20px 5px;
+}
+.articletitle{
+    float: left;
+    color: rgba(0, 0, 0, 0.8);
+}
+.articleprice{
+    float: right;
+    font-weight: 700;
+}
+.cleaner{
+    clear: both;
+}
+.articledesc{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 8px;
+}
+#pagescroll{
+
+}
+main hr{
+    border: 2px solid rgb(155, 155, 155);
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #448d7d;
+}
+#footercontent{
+    height: 250px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.footersection{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    height: 250px;
+}
+#info{
+    border-right: 6px solid #569385;
+}
+#info li{
+    background-color: #448d7d;
+    padding: 6px;
+}
+#info li a{
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+#info li a:hover{
+    color: black;
+    transition: 0.3s;
+}
+.footersection h3{
+    background-color: #448d7d;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    color: white;
+}
+#social ul{
+    display: flex;
+}
+#social i{
+    width: ;
+}
+#newsletter{
+    border-left: 6px solid #569385;
+}
+footer p{
+    background: none;
+    text-align: center;
+    color: rgb(240, 240, 240);
+    padding: 15px;
+}
